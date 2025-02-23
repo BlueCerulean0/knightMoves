@@ -1,6 +1,6 @@
 // This function returns an array of legal moves of a given position.
 function possibleMoves(current) {
-  //The legan moves a knight is allowed to make
+  //The legal moves a knight is allowed to make
   const validMoves = [
     [1, 2],
     [2, 1],
@@ -30,7 +30,7 @@ function possibleMoves(current) {
   return possibilities;
 }
 
-// It function takes 2 arrays as arguments: current location of the knight and it's target.
+// This function takes 2 arrays as arguments: current location of the knight and it's target.
 // It returns an object of:
 // the number of steps, the actual moves and the visisted nodes during the BFS.
 function knight(current, target) {
